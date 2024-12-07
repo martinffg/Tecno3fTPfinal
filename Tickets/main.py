@@ -6,7 +6,9 @@ def main():
 
     tickets = []
     # declaracion de variables globales
-    opcionSalida = "3"  # variable que setea el número de opción "Salir" en el "Menú Principal de Inventario". Se debe setear como String obligatoriamente.
+    opcionSalida = (
+        "3"  # variable que setea el número de opción "Salir" en el "Menú Principal".
+    )
     opcionStr = ""  # variable que guarda la opción elegida como un String.
     opcion = 0  # Variable que guarda la opción elegida como un Integer.
     salir = False
